@@ -1,0 +1,12 @@
+id: H000000
+slug: minimal-web-task
+title: Minimal Web Task
+acquisition: behavior
+variant: web
+maturity: draft
+version:
+  release_tag: ""
+contracts:
+  taps: v0.1.0
+evidence: []
+maintainer: []

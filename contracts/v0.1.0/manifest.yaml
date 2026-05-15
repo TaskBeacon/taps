@@ -1,0 +1,22 @@
+﻿contract_version: v0.1.0
+name: TAPS task contracts
+purpose: Standardize TaskBeacon TAPS task package structure, metadata, runtime-adjacent files, and audit artifacts.
+contracts:
+  - required_files
+  - gitignore
+  - taskbeacon
+  - config_base
+  - config_qa
+  - config_scripted_sim
+  - config_sampler_sim
+  - responder_plugin
+  - runtime_main
+  - responder_context
+  - readme_meta
+  - changelog
+  - reference_artifacts
+  - artifacts
+docs:
+  - README.md
+  - main_pattern.md
+  - run_trial_pattern.md

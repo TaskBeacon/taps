@@ -1,0 +1,12 @@
+id: T000000
+slug: minimal-python-task
+title: Minimal Python Task
+acquisition: behavior
+variant: baseline
+maturity: draft
+version:
+  release_tag: ""
+contracts:
+  taps: v0.1.0
+evidence: []
+maintainer: []

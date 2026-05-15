@@ -1,0 +1,41 @@
+﻿name: responder_context
+file: src/run_trial.py
+required_strings_all:
+  - set_trial_context
+  - capture_response
+required_function: run_trial
+required_signature_args:
+  - win
+  - kb
+  - settings
+  - condition
+required_context_fields_any:
+  - trial_id=
+  - phase=
+  - deadline_s=
+  - valid_keys=
+recommended_context_fields_any:
+  - condition_id=
+  - block_id=
+  - task_factors=
+recommended_context_phase_tokens_any:
+  - cue
+  - fixation
+  - target
+  - response
+  - choice
+  - decision
+  - feedback
+  - iti
+forbidden_text_constructor_calls:
+  - TextStim
+  - TextBox2
+  - TextBox
+fail_on_literal_text_constructor: true
+fail_on_literal_settext: true
+fail_on_literal_text_attr_assign: true
+notes:
+  - phase labels are task-specific; validator should not hard-fail on phase naming style.
+  - run_trial should execute an auditable trial flow and return serializable trial_data.
+  - every participant-visible phase should emit set_trial_context(...) before show(...) or capture_response(...); non-visible bookkeeping is the only exception.
+  - participant-facing text should be config-defined for localization portability.

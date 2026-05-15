@@ -1,0 +1,20 @@
+﻿name: taskbeacon
+required_keys:
+  - id
+  - slug
+  - title
+  - acquisition
+  - variant
+  - maturity
+required_nested_keys:
+  - version.release_tag
+  - contracts.taps
+forbidden_nested_keys:
+  - contracts.psyflow_taps
+  - contracts.psyflow_web_taps
+allowed_maturity:
+  - draft
+  - smoke_tested
+  - piloted
+  - validated
+required_contract_version: v0.1.0
