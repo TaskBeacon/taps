@@ -7,6 +7,8 @@ maturity: draft
 version:
   release_tag: ""
 contracts:
-  taps: v0.1.0
+  taps: v0.2.0
+runtime:
+  profile: psyflow
 evidence: []
 maintainer: []

@@ -1,0 +1,26 @@
+﻿name: taskbeacon
+required_keys:
+  - id
+  - slug
+  - title
+  - acquisition
+  - variant
+  - maturity
+required_nested_keys:
+  - version.release_tag
+  - contracts.taps
+  - runtime.profile
+forbidden_nested_keys:
+  - contracts.psyflow_taps
+  - contracts.psyflow_web_taps
+allowed_runtime_profiles:
+  - psyflow
+  - web
+  - godot
+allowed_maturity:
+  - prototype
+  - draft
+  - smoke_tested
+  - piloted
+  - validated
+required_contract_version: v0.2.0

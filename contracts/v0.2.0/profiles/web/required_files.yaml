@@ -1,0 +1,16 @@
+name: required_files
+required_paths:
+  - config/
+  - config/config.yaml
+  - src/
+  - src/run_trial.ts
+  - main.ts
+  - taskbeacon.yaml
+  - README.md
+recommended_paths:
+  - assets/
+  - outputs/
+  - .gitignore
+notes:
+  - Web TAPS tasks use TypeScript entrypoints and run inside psyflow-web.
+  - Do not require Python/PsyFlow runtime files in this profile.

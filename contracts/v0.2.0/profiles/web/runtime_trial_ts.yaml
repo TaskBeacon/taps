@@ -1,0 +1,14 @@
+name: runtime_trial_ts
+file: src/run_trial.ts
+required_strings_all:
+  - set_trial_context
+  - TrialBuilder
+required_function_tokens_any:
+  - export function run_trial
+  - export async function run_trial
+recommended_strings_any:
+  - captureResponse
+  - capture_response
+  - set_state
+notes:
+  - src/run_trial.ts should expose the task-local trial builder function.

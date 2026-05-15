@@ -1,0 +1,11 @@
+name: required_files
+required_paths:
+  - taskbeacon.yaml
+  - README.md
+recommended_paths:
+  - project.godot
+  - scenes/
+  - scripts/
+  - config/
+notes:
+  - Godot is intentionally minimal until the first concrete Godot task defines runtime conventions.

@@ -18,7 +18,12 @@ Every task package must declare:
 
 ```yaml
 contracts:
-  taps: v0.1.0
+  taps: v0.2.0
+runtime:
+  profile: psyflow
 ```
 
 No other contract key is valid for TAPS validation.
+
+TAPS v0.2.0 adds runtime profiles while keeping one contract identity.
+Initial profiles are `psyflow`, `web`, and `godot`.

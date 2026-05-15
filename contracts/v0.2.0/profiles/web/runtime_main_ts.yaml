@@ -1,0 +1,12 @@
+name: runtime_main_ts
+file: main.ts
+required_strings_all:
+  - psyflow-web
+  - mountTaskApp
+  - parsePsyflowConfig
+  - config/config.yaml?raw
+required_function_tokens_any:
+  - export async function run
+  - export function run
+notes:
+  - main.ts is the web task entrypoint loaded by psyflow-web.

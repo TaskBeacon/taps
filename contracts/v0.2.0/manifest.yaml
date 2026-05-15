@@ -1,0 +1,32 @@
+contract_version: v0.2.0
+name: TAPS profile-aware contracts
+purpose: Validate common TAPS metadata plus runtime-specific task profiles.
+profile_key: runtime.profile
+profiles:
+  - psyflow
+  - web
+  - godot
+common_contracts:
+  - taskbeacon
+profile_contracts:
+  psyflow:
+    - required_files
+    - gitignore
+    - config_base
+    - config_qa
+    - config_scripted_sim
+    - config_sampler_sim
+    - responder_plugin
+    - runtime_main
+    - responder_context
+    - readme_meta
+    - changelog
+    - reference_artifacts
+    - artifacts
+  web:
+    - required_files
+    - config_web
+    - runtime_main_ts
+    - runtime_trial_ts
+  godot:
+    - required_files

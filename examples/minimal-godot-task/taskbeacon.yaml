@@ -1,14 +1,14 @@
-id: H000000
-slug: minimal-web-task
-title: Minimal Web Task
+id: G000000
+slug: minimal-godot-task
+title: Minimal Godot Task
 acquisition: behavior
-variant: web
+variant: godot
 maturity: draft
 version:
   release_tag: ""
 contracts:
   taps: v0.2.0
 runtime:
-  profile: web
+  profile: godot
 evidence: []
 maintainer: []
