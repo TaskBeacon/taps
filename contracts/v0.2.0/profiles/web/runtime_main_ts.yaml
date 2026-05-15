@@ -4,8 +4,12 @@ required_strings_all:
   - psyflow-web
   - mountTaskApp
   - parsePsyflowConfig
+required_strings_any:
   - config/config.yaml?raw
+  - ./config/config.yaml
 required_function_tokens_any:
+  - export async function main
+  - export function main
   - export async function run
   - export function run
 notes:

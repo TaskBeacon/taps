@@ -63,6 +63,7 @@ profile_rules:
   trial_per_block_path: task.trial_per_block
   condition_list_path: task.conditions
   require_shorter_than_base: true
+  allow_equal_when_base_trials_lte: 1
   require_trials_cover_conditions: true
   require_trial_per_block_consistency: true
   recommended_max_total_trials: 48

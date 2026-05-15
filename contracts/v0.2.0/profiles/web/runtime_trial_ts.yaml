@@ -1,11 +1,15 @@
 name: runtime_trial_ts
 file: src/run_trial.ts
 required_strings_all:
-  - set_trial_context
   - TrialBuilder
+required_strings_any:
+  - set_trial_context
+  - setContext
 required_function_tokens_any:
   - export function run_trial
   - export async function run_trial
+  - export function runTrial
+  - export async function runTrial
 recommended_strings_any:
   - captureResponse
   - capture_response
