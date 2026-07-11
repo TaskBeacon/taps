@@ -13,6 +13,8 @@ required_function_tokens_any:
 recommended_strings_any:
   - captureResponse
   - capture_response
+  - capturePointerSequence
+  - capture_pointer_sequence
   - set_state
 notes:
   - src/run_trial.ts should expose the task-local trial builder function.
