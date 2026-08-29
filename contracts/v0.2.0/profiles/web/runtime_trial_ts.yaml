@@ -17,6 +17,8 @@ recommended_strings_any:
   - capture_pointer_sequence
   - capturePointerTrace
   - capture_pointer_trace
+  - capturePointerReach
+  - capture_pointer_reach
   - set_state
 notes:
   - src/run_trial.ts should expose the task-local trial builder function.

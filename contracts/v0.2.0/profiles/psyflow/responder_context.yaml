@@ -6,6 +6,7 @@ required_strings_any:
   - capture_response
   - capture_pointer_sequence
   - capture_pointer_trace
+  - capture_pointer_reach
 required_function: run_trial
 required_signature_args:
   - win
@@ -25,6 +26,7 @@ recommended_context_phase_tokens_any:
   - cue
   - fixation
   - target
+  - reach
   - response
   - choice
   - decision
