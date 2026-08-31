@@ -7,6 +7,7 @@ required_strings_any:
   - capture_pointer_sequence
   - capture_pointer_trace
   - capture_pointer_reach
+  - capture_pointer_pursuit
 required_function: run_trial
 required_signature_args:
   - win
