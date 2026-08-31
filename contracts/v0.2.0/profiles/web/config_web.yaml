@@ -57,6 +57,7 @@ mandatory_value_specs:
     type: mapping
     min_items: 1
 stim_supported_types:
+  - grating
   - text
   - textbox
   - circle

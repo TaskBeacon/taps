@@ -95,6 +95,7 @@ recommended_value_specs:
     type: int
     min: 1
 stim_supported_types:
+  - grating
   - text
   - textbox
   - circle
